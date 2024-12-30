@@ -1,0 +1,159 @@
+.container{
+  width: 73vw;
+  margin: 0 auto;
+}
+.bg-div-nav{
+  background: linear-gradient(to right,#eee,#eee);
+}
+.advertising-div{
+  background: linear-gradient(to right,#eee,#eee);
+}
+header .container nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px 0;
+}
+
+header .container nav div{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+header .container ul{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+header .container ul a{
+  font: 600 0.66rem "Arial";
+  transition: 5s;
+}
+
+header .container a img{
+  height: 18px;
+}
+
+.slider{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px 0;
+}
+
+.slider img{
+  height: 60px;
+}
+
+.advertising-div p{
+  font: 540 1.3rem "Arial";
+  text-align: center;
+}
+.advertising-div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 25px 0;
+  gap: 15px;
+}
+.advertising-div a{
+  font: 540 1rem "Arial";
+  color: blue;
+  text-transform: capitalize;
+}
+
+/*TITANIUM SECTION STYLES--------------------------------------------------------------------------------------*/
+
+.header-main-titanium,
+.header-main-newphoria{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  background: linear-gradient(to right, black , black);
+  height: 95vh;
+  padding: 45px 0;
+}
+.header-main-titanium span,
+.header-main-newphoria span{
+  font: 540 0.8rem "Arial";
+  color: #bf4800 ;
+  text-transform: capitalize;
+}
+.header-main-titanium h2,
+.header-main-newphoria h2{
+  font: 540 1.1rem "Arial";
+  text-transform: capitalize;
+  color: gray;
+  margin: 10px 0;
+}
+.header-main-titanium .titanium-img{
+  height: 2.55rem;
+  margin: 0;
+}
+
+.header-main-titanium p,
+.header-main-newphoria p{
+  font: 540 0.9rem "Arial";
+  color: white;
+  margin: 15px 0;
+}
+.header-main-titanium .buy-titanium,
+.header-main-newphoria .buy-newphoria{
+  color: white;
+  background-color: rgb(19, 106, 255);
+  padding: 12px 27px;
+  border-radius: 20px;
+  font: 540 .8rem "Arial";
+  text-transform: capitalize;
+  margin: 10px 0;
+  transition: .3s;
+  &:hover{
+    box-shadow: 5px 5px 10px -2px #eee;
+  }
+
+}
+.header-main-titanium .learn-more-titanium,
+.header-main-newphoria .learn-more-newphoria{
+  color: rgb(19, 106, 255);
+  font: 540 1rem "Arial";
+  text-transform: capitalize;
+  margin: 15px 0;
+}
+.header-main-titanium div{
+  height: 55vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header-main-titanium img{
+  margin: auto;
+  height: 42%;
+}
+/*NEWPHORIA SECTION STYLES------------------------------------------------------------------------------------*/
+.header-main-newphoria{
+  overflow: hidden;
+  height: 96vh;
+  background:linear-gradient(to right,white,white);
+}
+.header-main-newphoria h3{
+  font: 540 2.8rem "Arial";
+  text-transform: capitalize;
+}
+.header-main-newphoria h2{
+  color: black;
+}
+.header-main-newphoria p{
+  color: black;
+}
+.header-main-newphoria div{
+  height: 70vh;
+  display: flex;
+  align-items: end;
+}
+
+.header-main-newphoria img{
+  height: 54vh;
+}
