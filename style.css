@@ -1,59 +1,67 @@
-.container{
+.container {
   width: 73vw;
   margin: 0 auto;
 }
-.bg-div-nav{
-  background: linear-gradient(to right,#eee,#eee);
+
+.bg-div-nav {
+  background: linear-gradient(to right, #eee, #eee);
 }
-.advertising-div{
-  background: linear-gradient(to right,#eee,#eee);
+
+.advertising-div {
+  background: linear-gradient(to right, #eee, #eee);
 }
-header .container nav{
+
+header .container nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 25px 0;
 }
 
-header .container .right-icons{
+header .container .right-icons {
   display: flex;
   align-items: center;
   gap: 15px;
 }
 
-header .container ul{
+header .container ul {
   display: flex;
   align-items: center;
   gap: 20px;
 }
-header .container ul a{
+
+header .container ul a {
   font: 600 0.7rem "Arial";
   transition: .5s;
   border-bottom: 2px solid transparent;
-  &:hover{
-   border-color: black;
+
+  &:hover {
+    border-color: black;
   }
 }
 
-header .container a img{
+header .container a img {
   height: 18px;
 }
 
+#xmark {
+  display: none;
+  position: absolute;
+  right: 12px;
+  top: 27px;
+  font-size: 18px;
+  z-index: 2;
+}
+
 .hamburger {
-  display:none;
+  display: none;
   flex-direction: column;
-  gap: 4px ;
+  gap: 4px;
   cursor: pointer;
   transition: .4s;
 }
-.hamburger .bar{
-  border-radius: 10px;
-  width: 18px;
-  height: 2px;
-  background-color: black;
-}
 
-.slider{
+.slider {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -61,15 +69,16 @@ header .container a img{
   gap: 10px;
 }
 
-.slider img{
-  width: 60px;  
+.slider img {
+  width: 60px;
 }
 
-.advertising-div p{
+.advertising-div p {
   font: 540 1.3rem "Arial";
   text-align: center;
 }
-.advertising-div{
+
+.advertising-div {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -77,7 +86,8 @@ header .container a img{
   padding: 25px 0;
   gap: 15px;
 }
-.advertising-div a{
+
+.advertising-div a {
   font: 540 1rem "Arial";
   color: blue;
   text-transform: capitalize;
@@ -86,42 +96,46 @@ header .container a img{
 /*TITANIUM SECTION STYLES--------------------------------------------------------------------------------------*/
 
 .header-main-titanium,
-.header-main-newphoria{
+.header-main-newphoria {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: start;
-  background: linear-gradient(to right, black , black);
+  background: linear-gradient(to right, black, black);
   height: 95vh;
   padding: 45px 0;
 }
+
 .header-main-titanium span,
-.header-main-newphoria span{
+.header-main-newphoria span {
   font: 540 0.8rem "Arial";
-  color: #bf4800 ;
+  color: #bf4800;
   text-transform: capitalize;
 }
+
 .header-main-titanium h2,
 .header-main-newphoria h2,
-.section3-bg-div .content h2{
+.section3-bg-div .content h2 {
   font: 540 1.1rem "Arial";
   text-transform: capitalize;
   color: gray;
   margin: 10px 0;
 }
-.header-main-titanium .titanium-img{
+
+.header-main-titanium .titanium-img {
   height: 2.55rem;
   margin: 0;
 }
 
 .header-main-titanium p,
 .header-main-newphoria p,
-.section3-bg-div .content p{
+.section3-bg-div .content p {
   font: 540 0.9rem "Arial";
   color: white;
   margin: 15px 0;
 }
-.buy{
+
+.buy {
   color: white;
   background-color: rgb(19, 106, 255);
   padding: 12px 27px;
@@ -130,105 +144,168 @@ header .container a img{
   text-transform: capitalize;
   margin: 10px 0;
   transition: .3s;
-  &:hover{
+
+  &:hover {
     box-shadow: 5px 5px 10px -2px #eee;
   }
 
 }
-.learn-more{
+
+.learn-more {
   color: rgb(19, 106, 255);
   font: 540 1rem "Arial";
   text-transform: capitalize;
   margin: 15px 0;
 }
-.header-main-titanium div{
+
+.header-main-titanium div {
   height: 55vh;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.header-main-titanium img{
+
+.header-main-titanium div img {
   margin: auto;
   height: 42%;
 }
+
 /*NEWPHORIA SECTION STYLES------------------------------------------------------------------------------------*/
-.header-main-newphoria{
-  overflow: hidden;
+.header-main-newphoria {
   height: 96vh;
-  background:linear-gradient(to right,white,white);
+  background: linear-gradient(to right, white, white);
+  overflow: hidden;
 }
-.header-main-newphoria h3{
+
+.header-main-newphoria h3 {
   font: 540 2.8rem "Arial";
   text-transform: capitalize;
 }
+
 .header-main-newphoria h2,
-.section3-bg-div .content h2{
+.section3-bg-div .content h2 {
   color: black;
 }
-.header-main-newphoria p{
+
+.header-main-newphoria p {
   color: black;
 }
-.header-main-newphoria div{
+
+.header-main-newphoria div {
   height: 70vh;
   display: flex;
   align-items: end;
 }
 
-.header-main-newphoria img{
+.header-main-newphoria img {
   height: 54vh;
 }
 
 /*SECTION 3 STYLES*/
-.section3-bg-div{
+.section3-bg-div {
   height: 100vh;
 }
-.section3-bg-div .container{
+
+.section3-bg-div .container {
   display: flex;
-  gap:180px;
+  gap: 180px;
   align-items: center;
   justify-content: center;
 }
-.section3-bg-div .container .content{
+
+.section3-bg-div .container .content {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.section3-bg-div .content p{
+.section3-bg-div .content p {
   color: black;
   font-size: 1.2em;
 }
 
-.section3-bg-div .image{
+.section3-bg-div .image {
   height: 100vh;
 }
-.section3-bg-div .image img{
+
+.section3-bg-div .image img {
   height: 100%;
 }
+
 /* .section3-bg-div .content h2{
   font: 400 1.1rem "Arial";
   text-transform: capitalize;
 } */
-.section3-bg-div .content h3{
+.section3-bg-div .content h3 {
   text-align: center;
   font: 600 3rem "Arial";
   line-height: 1.7;
   color: #1e3791;
 }
 
+/*SECTION 4 STYELS-----------------------------------------------------------------------------------------*/
+.section4-bg-div {
+  background: url("https://css-exam-mu.vercel.app/img/applebg12.jpeg")center/cover;
+  height: 100vh;
+  margin: 40px 20px;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.section4-bg-div .container {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  margin-top: 80px;
+  gap: 25px;
+}
+
+.section4-bg-div .container h3 {
+  font: 600 1.4rem "Arial";
+  color: white;
+}
+
+.section4-bg-div .container h2 {
+  font: 500 2.8rem "Arial";
+  max-width: 290px;
+  color: white;
+}
+
+.section4-bg-div .container a {
+  font: 500 13px "Arial";
+  padding: 8px 20px;
+  /* text-transform: capitalize; */
+  background-color: #ffffffcc;
+  border-radius: 20px;
+}
+
+
+
+
+
+
+
+
+
+
 
 /*RESPONSIVE DESIGN FOR MAX OF 768 PIXELS ____________________________________________________________________*/
-@media (max-width: 432px){
-  .container{
+@media (max-width: 432px) {
+  .container {
     width: 95%;
   }
+
   .hamburger {
-    display:flex;
+    display: flex;
   }
-  .bg-div-nav{
+
+  .bg-div-nav {
     position: relative;
   }
-  .bg-div-nav nav .nav-items{
+
+  .bg-div-nav nav .nav-items {
     display: none;
     position: absolute;
     flex-direction: column;
@@ -239,16 +316,85 @@ header .container a img{
     align-items: start;
     padding: 100px 0 0 25px;
     background-color: #fff;
+    overflow: hidden;
   }
-  .bg-div-nav nav ul li a{
+
+  .bg-div-nav nav ul li a {
     font: 540 1.2rem "Arial";
-    
+
   }
-  .slider{
+
+  .slider {
     overflow-x: auto;
     scrollbar-width: none;
   }
+
   .slider::-webkit-scrollbar {
     display: none;
+  }
+
+  /*Titanium part change*/
+  .header-main-titanium {
+    height: 106vh !important;
+    overflow: hidden !important;
+  }
+
+  .header-main-titanium div {
+    transform: rotate(90deg);
+    overflow: hidden !important;
+  }
+
+  .main-titanium {
+    margin-left: 120px !important;
+    height: 80px !important;
+  }
+
+  /*Newphoria part changes*/
+  .header-main-newphoria {
+    height: 80vh;
+  }
+
+  .header-main-newphoria div {
+    height: 60vh;
+    padding: 20px 0;
+    align-items: start !important;
+  }
+
+  .header-main-newphoria h3 {
+    font-size: 1.8rem;
+    margin-top: 0.3rem !important;
+  }
+
+  .header-main-newphoria div {
+    width: 100% !important;
+  }
+
+  .header-main-newphoria img {
+    width: 100% !important;
+    height: 18vh;
+    margin: 0 !important;
+  }
+
+  /*3rd section style changes*/
+  .section3-bg-div {
+    height: 108vh;
+    padding: 1rem 0 !important;
+  }
+
+  .section3-bg-div .container {
+    flex-direction: column !important;
+    gap: 15px !important;
+  }
+
+  .section3-bg-div .content h3 {
+    font-size: 2rem !important;
+  }
+
+  .section3-bg-div .image {
+    height: 50vh;
+  }
+
+  .section3-bg-div .image img {
+    height: 100%;
   }
 }
