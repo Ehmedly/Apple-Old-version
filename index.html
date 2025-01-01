@@ -20,7 +20,7 @@
           <a href="#">
             <img src="/WEB TEMPLATES/Apple Old Version/Images/Apple_logo_black.svg.png" alt="apple logo">
           </a>
-          <ul>
+          <ul class="nav-items" id = "nav-items">
             <li><a href="#">Store</a></li>
             <li><a href="#">Mac</a></li>
             <li><a href="#">Ipad</a></li>
@@ -33,9 +33,14 @@
             <li><a href="#">Accessories</a></li>
             <li><a href="#">Support</a></li>
           </ul>
-          <div>
+          <div class="right-icons">
             <i class="fa-solid fa-magnifying-glass"></i>
             <i class="fa-solid fa-bag-shopping"></i>
+            <div class="hamburger" onclick="myFunction()">
+              <div class="bar"></div>
+              <div class="bar"></div>
+              <div class="bar"></div>
+            </div>
           </div>
         </nav>
       </div>
@@ -70,7 +75,7 @@
       <a class="buy" href="#">buy</a>
       <a class="learn-more" href="#">learn more <i class="fa-solid fa-chevron-right"></i></a>
       <div>
-        <img src="https://css-exam-mu.vercel.app/img/titanium-pc.png" alt="iphone main photo">
+        <img src="Images/titanium-pc.png" alt="iphone main photo">
       </div>
     </div>
     <div class="header-main-newphoria">
@@ -92,15 +97,26 @@
           <h2>iphone</h2>
           <h3>Love the power,<br> Love the price.</h3>
           <p>From $999 or $41.62/mo. for 24 mo.</p>
-          <a class = "buy" href="#">buy</a>
-          <a class = "learn-more"href="#">learn more</a>
+          <a class="buy" href="#">buy</a>
+          <a class="learn-more" href="#">learn more</a>
         </div>
-        <div class = "image">
+        <div class="image">
           <img src="Images\lovebg.jpeg" alt="love-background">
         </div>
       </div>
     </div>
   </main>
+  <script>
+    function myFunction() {
+      var x = document.getElementById("nav-items");
+      if (x.style.display === "flex") {
+        x.style.display = "none";
+      } 
+      else {
+        x.style.display = "flex"; 
+      }
+    }
+  </script>
 </body>
 
 </html>
