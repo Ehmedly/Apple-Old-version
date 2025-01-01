@@ -27,8 +27,12 @@ header .container ul{
   gap: 20px;
 }
 header .container ul a{
-  font: 600 0.66rem "Arial";
-  transition: 5s;
+  font: 600 0.7rem "Arial";
+  transition: .5s;
+  border-bottom: 2px solid transparent;
+  &:hover{
+   border-color: black;
+  }
 }
 
 header .container a img{
@@ -83,7 +87,8 @@ header .container a img{
   text-transform: capitalize;
 }
 .header-main-titanium h2,
-.header-main-newphoria h2{
+.header-main-newphoria h2,
+.section3-bg-div .content h2{
   font: 540 1.1rem "Arial";
   text-transform: capitalize;
   color: gray;
@@ -95,13 +100,13 @@ header .container a img{
 }
 
 .header-main-titanium p,
-.header-main-newphoria p{
+.header-main-newphoria p,
+.section3-bg-div .content p{
   font: 540 0.9rem "Arial";
   color: white;
   margin: 15px 0;
 }
-.header-main-titanium .buy-titanium,
-.header-main-newphoria .buy-newphoria{
+.buy{
   color: white;
   background-color: rgb(19, 106, 255);
   padding: 12px 27px;
@@ -115,8 +120,7 @@ header .container a img{
   }
 
 }
-.header-main-titanium .learn-more-titanium,
-.header-main-newphoria .learn-more-newphoria{
+.learn-more{
   color: rgb(19, 106, 255);
   font: 540 1rem "Arial";
   text-transform: capitalize;
@@ -142,7 +146,8 @@ header .container a img{
   font: 540 2.8rem "Arial";
   text-transform: capitalize;
 }
-.header-main-newphoria h2{
+.header-main-newphoria h2,
+.section3-bg-div .content h2{
   color: black;
 }
 .header-main-newphoria p{
@@ -156,4 +161,42 @@ header .container a img{
 
 .header-main-newphoria img{
   height: 54vh;
+}
+
+/*SECTION 3 STYLES*/
+.section3-bg-div{
+  height: 100vh;
+}
+.section3-bg-div .container{
+  display: flex;
+  gap:180px;
+  align-items: center;
+  justify-content: center;
+}
+.section3-bg-div .container .content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section3-bg-div .content p{
+  color: black;
+  font-size: 1.2em;
+}
+
+.section3-bg-div .image{
+  height: 100vh;
+}
+.section3-bg-div .image img{
+  height: 100%;
+}
+/* .section3-bg-div .content h2{
+  font: 400 1.1rem "Arial";
+  text-transform: capitalize;
+} */
+.section3-bg-div .content h3{
+  text-align: center;
+  font: 600 3rem "Arial";
+  line-height: 1.7;
+  color: #1e3791;
 }
