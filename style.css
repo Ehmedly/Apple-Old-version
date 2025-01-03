@@ -87,10 +87,12 @@ header .container a img {
   gap: 15px;
 }
 
-.advertising-div a {
+.shop-iphone-links{
   font: 540 1rem "Arial";
-  color: blue;
+  color: rgb(0, 145, 255);
   text-transform: capitalize;
+  width: fit-content;
+  margin: 0 auto;
 }
 
 /*TITANIUM SECTION STYLES--------------------------------------------------------------------------------------*/
@@ -285,6 +287,136 @@ header .container a img {
   height: 25vh;
 }
 
+/*SECION 5 STYLES ------------------------------------------------------------------------------------------*/
+
+.section5-bg-div {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 40px 0;
+  gap: 25px;
+  height: 285vh;
+}
+.section5-bg-div .container{
+  width: 65vw;  
+  display: flex;
+  flex-direction: column;
+}
+.section5-bg-div .container .phone-cards{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+.section5-bg-div .container .phone-card{
+  display: flex;
+  flex-direction: column;
+  width: 165px;
+}
+.section5-bg-div h1{
+  font: bold 3rem "Arial";
+  width: 100%;
+  margin: 20px auto;
+  text-align: center;
+}
+.phone-card a{
+  width: fit-content;
+  margin: auto;
+}
+.phone-card .phone-images{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  height: 265px;
+}
+.phone-card .phone-images .phone-img{
+  height: 220px;
+  object-fit: cover;
+}
+.phone-card .phone-images .color-img{
+  height: 1.75rem;
+  object-fit: cover;
+}
+.basic-phone-info{
+  position: relative;
+  display: flex;
+  padding: 15px 0 0 0;
+  flex-direction: column;
+  text-align: center;
+}
+.basic-phone-info span{
+  color: #bf4800;
+  font: 400 14px Arial;
+  text-transform: capitalize;
+}
+.basic-phone-info h2{
+  font: bold 16px "Arial";
+}
+.basic-phone-info p{
+  font: 500 16px "Arial";
+  margin: 10px 0;
+}
+.basic-phone-info h4{
+  font: 400 12px "Arial";
+  margin: 10px 0;
+}
+.basic-phone-info .learn-more{
+  padding: 25px 0;
+}
+hr{
+  position: absolute;
+  bottom: 0;
+  left: -47.5px;
+  width: 260px;
+  margin: 0 auto;
+}
+.info-sections {
+  text-align: center;
+  position: relative;
+  padding-bottom: 10px;
+}
+.info-section {
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.info-sections p{
+  font: 400 .7rem "Arial";
+  max-width: 144px;
+  line-height: 23px;
+}
+.info-sections span{
+  font: 600 1.4rem "Arial";
+}
+.info-sections img{
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
+.section5-bg-div .shop-iphone-links{
+  margin: 20px auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -395,6 +527,8 @@ header .container a img {
 
   .section3-bg-div .image {
     height: 50vh;
+    width: 100% !important;
+    text-align: center;
   }
 
   .section3-bg-div .image img {
@@ -435,5 +569,21 @@ header .container a img {
     height: 50vh;
     width: 100% !important;
   }
-  /**/
+  /*Section 5 style changes*/
+  .section5-bg-div{
+    height: 596vh;
+  }
+  .section5-bg-div .container{
+    width: 85vw;
+  }
+  .section5-bg-div .container .phone-card{
+    margin: 0 auto;
+  }
+  .section5-bg-div h1{
+    font: bold 2rem "Arial" !important;
+  }
+  hr{
+    left: 10%;
+    width: 80%;
+  }
 }
