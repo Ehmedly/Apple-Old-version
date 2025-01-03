@@ -400,7 +400,83 @@ hr{
   margin: 20px auto;
 }
 
-
+/* SECTION 6 STYLES------------------------------------------------------------------------------------- */
+.section6-bg-div{
+  height: 170vh;
+  background: #f2f2f2;
+  padding: 40px 0;
+}
+.section6-bg-div .container{
+  width: 70vw;
+}
+.section6-bg-div h2{
+  font: 500 2.8rem "Arial";
+  width: 600px;
+  margin: 20px auto;
+  text-align: center;
+}
+.section6-bg-div .card-div h3{
+  font: 600 1.5rem "Arial";
+  width: 271px;
+  margin: 30px auto;
+  text-align: center;
+}
+.section6-bg-div .container .learn-more{
+  display: inline-block;
+  width: fit-content;
+  margin: 20px auto;
+  text-align: center;
+}
+.section6-bg-div .img-div img{
+  width: 100%;
+}
+.section6-bg-div .img-div{
+  height: 30vh;
+  display: flex;
+  align-items: center;
+}
+.section6-bg-div .img-div2 img{
+  width: 50%;
+}
+.section6-bg-div .img-div3 img{
+  width: 60%;
+}
+.section6-bg-div .card-div{
+  width: 31.5%;
+  padding: 10px;
+  background-color: #fff;
+  text-align: center;
+}
+.section6-bg-div .card-div p{
+  margin: auto;
+  width: 95%;
+  font: 500 1rem "Arial";
+  color: rgb(110, 110, 115);
+}
+.section6-bg-div .cards-div{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 5px;
+}
+.one-card-div{
+  text-align: center;
+  padding-top: 30px;
+  background: url("https://css-exam-mu.vercel.app/img/applebg6.jpeg")center/cover;
+  height: 80vh;
+  margin-top: 35px;
+}
+.one-card-div h2{
+  font-weight: bold;
+  font-size: 3rem;
+  max-width: 500px;
+}
+.one-card-div .content p{
+  font: 500 1rem "Arial";
+  text-align: center;
+  max-width: 500px;
+  margin: auto;
+}
 
 
 
