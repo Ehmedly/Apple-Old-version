@@ -87,7 +87,7 @@ header .container a img {
   gap: 15px;
 }
 
-.shop-iphone-links{
+.shop-iphone-links {
   font: 540 1rem "Arial";
   color: rgb(0, 145, 255);
   text-transform: capitalize;
@@ -279,10 +279,12 @@ header .container a img {
   background-color: #ffffffcc;
   border-radius: 20px;
 }
-.fa-circle-play{
+
+.fa-circle-play {
   display: none !important;
 }
-.section4-bg-div2{
+
+.section4-bg-div2 {
   width: 100%;
   height: 25vh;
 }
@@ -295,35 +297,41 @@ header .container a img {
   flex-direction: column;
   padding: 40px 0;
   gap: 25px;
-  height: 285vh;
+  height: 290vh;
 }
-.section5-bg-div .container{
-  width: 65vw;  
+
+.section5-bg-div .container {
+  width: 65vw;
   display: flex;
   flex-direction: column;
 }
-.section5-bg-div .container .phone-cards{
+
+.section5-bg-div .container .phone-cards {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding: 20px 0;
+  padding: 20px 0 0 0;
 }
-.section5-bg-div .container .phone-card{
+
+.section5-bg-div .container .phone-card {
   display: flex;
   flex-direction: column;
   width: 165px;
 }
-.section5-bg-div h1{
+
+.section5-bg-div h1 {
   font: bold 3rem "Arial";
   width: 100%;
   margin: 20px auto;
   text-align: center;
 }
-.phone-card a{
+
+.phone-card a {
   width: fit-content;
   margin: auto;
 }
-.phone-card .phone-images{
+
+.phone-card .phone-images {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -331,154 +339,296 @@ header .container a img {
   gap: 10px;
   height: 265px;
 }
-.phone-card .phone-images .phone-img{
+
+.phone-card .phone-images .phone-img {
   height: 220px;
   object-fit: cover;
 }
-.phone-card .phone-images .color-img{
+
+.phone-card .phone-images .color-img {
   height: 1.75rem;
   object-fit: cover;
 }
-.basic-phone-info{
+
+.basic-phone-info {
+  height: fit-content;
   position: relative;
   display: flex;
   padding: 15px 0 0 0;
   flex-direction: column;
   text-align: center;
 }
-.basic-phone-info span{
+
+.basic-phone-info span {
   color: #bf4800;
   font: 400 14px Arial;
   text-transform: capitalize;
 }
-.basic-phone-info h2{
+
+.basic-phone-info h2 {
   font: bold 16px "Arial";
 }
-.basic-phone-info p{
+
+.basic-phone-info p {
   font: 500 16px "Arial";
   margin: 10px 0;
 }
-.basic-phone-info h4{
+
+.basic-phone-info h4 {
   font: 400 12px "Arial";
   margin: 10px 0;
 }
-.basic-phone-info .learn-more{
+
+.basic-phone-info .learn-more {
   padding: 25px 0;
 }
-hr{
+
+hr {
+  display: inline-block;
   position: absolute;
   bottom: 0;
   left: -47.5px;
   width: 260px;
   margin: 0 auto;
 }
+
 .info-sections {
   text-align: center;
   position: relative;
   padding-bottom: 10px;
+  margin-bottom: 20px;
 }
+
 .info-section {
   padding: 20px 0;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.info-sections p{
+
+.info-sections p {
   font: 400 .7rem "Arial";
   max-width: 144px;
   line-height: 23px;
 }
-.info-sections span{
+
+.info-sections span {
   font: 600 1.4rem "Arial";
 }
-.info-sections img{
+
+.info-sections img {
   width: 40px;
   height: 40px;
   object-fit: contain;
 }
-.section5-bg-div .shop-iphone-links{
+
+.section5-bg-div .link1 {
+  margin: 15px auto 20px auto;
+}
+
+.section5-bg-div .link2 {
   margin: 20px auto;
 }
 
 /* SECTION 6 STYLES------------------------------------------------------------------------------------- */
-.section6-bg-div{
-  height: 170vh;
+.section6-bg-div {
+  height: 500vh;
   background: #f2f2f2;
   padding: 40px 0;
 }
-.section6-bg-div .container{
-  width: 70vw;
+
+.section6-bg-div .container {
+  width: 71vw;
 }
-.section6-bg-div h2{
+
+.section6-bg-div h2 {
   font: 500 2.8rem "Arial";
-  width: 600px;
+  max-width: 600px;
   margin: 20px auto;
   text-align: center;
 }
-.section6-bg-div .card-div h3{
+
+.section6-bg-div .card-div h3 {
   font: 600 1.5rem "Arial";
   width: 271px;
   margin: 30px auto;
   text-align: center;
 }
-.section6-bg-div .container .learn-more{
+
+.section6-bg-div .container .learn-more {
   display: inline-block;
   width: fit-content;
   margin: 20px auto;
   text-align: center;
 }
-.section6-bg-div .img-div img{
+
+.section6-bg-div .img-div img {
   width: 100%;
 }
-.section6-bg-div .img-div{
+
+.section6-bg-div .img-div {
   height: 30vh;
   display: flex;
   align-items: center;
 }
-.section6-bg-div .img-div2 img{
+
+.section6-bg-div .img-div2 img {
   width: 50%;
 }
-.section6-bg-div .img-div3 img{
+
+.section6-bg-div .img-div3 img {
   width: 60%;
 }
-.section6-bg-div .card-div{
+
+.section6-bg-div .card-div {
   width: 31.5%;
   padding: 10px;
   background-color: #fff;
   text-align: center;
 }
-.section6-bg-div .card-div p{
-  margin: auto;
-  width: 95%;
-  font: 500 1rem "Arial";
-  color: rgb(110, 110, 115);
-}
-.section6-bg-div .cards-div{
+
+.section6-bg-div .cards-div {
   width: 100%;
   display: flex;
   justify-content: space-between;
   padding-top: 5px;
 }
-.one-card-div{
+
+.section6-bg-div .card-div p {
+  margin: auto;
+  width: 95%;
+  font: 500 1rem "Arial";
+  color: rgb(110, 110, 115);
+}
+
+.one-card-div {
   text-align: center;
   padding-top: 30px;
   background: url("https://css-exam-mu.vercel.app/img/applebg6.jpeg")center/cover;
   height: 80vh;
   margin-top: 35px;
 }
-.one-card-div h2{
+
+.one-card-div h2 {
   font-weight: bold;
   font-size: 3rem;
   max-width: 500px;
 }
-.one-card-div .content p{
+
+.one-card-div .content p {
   font: 500 1rem "Arial";
   text-align: center;
   max-width: 500px;
   margin: auto;
 }
 
+.vertical-cards-div h2 {
+  max-width: 300px;
+  font: bold 3rem "Arial";
+  margin: 40px auto;
+  text-align: center;
+}
 
+.vertical-card-div {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  background-color: #FCFCFE;
+  padding: 40px 0 !important;
+  margin-bottom: 10px;
+}
+.vertical-cards-div .air .vertical-img-div{
+  order: -1;
+}
+.vertical-cards-div .air .vertical-img-div img{
+  padding: 0 0 0 10px !important;
+}
+.vertical-cards-div .air .content{
+  padding-left: 0 !important;
+}
+.vertical-cards-div .air .content p{
+  max-width: 100%;
+  line-height: 1.7;
+}
+.vertical-cards-div .air .content div a{
+  margin: 15px 0 25px 0 !important;
+}
+.vertical-cards-div .air{
+  background-color: #fff;
+}
+.vertical-cards-div .magic .content p{
+  max-width: 100%;
+}
+.vertical-cards-div .magic .content a{
+  margin: 15px auto !important;
+}
+.vertical-cards-div .magic .content {
+  padding: 0 !important;
+}
+.vertical-cards-div .magic .vertical-img-div img{
+  padding: 0 !important;
+}
+.vertical-cards-div .magic .vertical-img-div{
+  flex-direction: column;
+  height: 52vh;
+  width: 76%;
+}
+.vertical-cards-div .magic{
+  flex-direction: column;
+  background-color: #fff;
+  padding: 0 !important;
+}
+
+
+.vertical-cards-div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px 0;
+}
+
+.vertical-card-div .vertical-img-div {
+  width: 50%;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.vertical-card-div .vertical-img-div img {
+  padding-right: 10px;
+  width: 100%;
+}
+
+.vertical-card-div .content {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 10px;
+  gap: 2px;
+}
+
+.vertical-card-div h3 {
+  font: bold 2.8rem "Arial";
+  width: fit-content;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.vertical-card-div p {
+  font: 500 1.1rem "Arial";
+  line-height: 1.5;
+  max-width: 279px;
+  text-align: center;
+}
+
+.vertical-card-div a {
+  display: inline-block;
+  margin: 28px !important;
+}
 
 
 
@@ -505,7 +655,7 @@ hr{
 /*RESPONSIVE DESIGN FOR MAX OF 768 PIXELS ____________________________________________________________________*/
 @media (max-width: 432px) {
   .container {
-    width: 95%;
+    width: 95% !important;
   }
 
   .hamburger {
@@ -612,54 +762,160 @@ hr{
   }
 
   /*4th section style changes*/
-  .section4-bg-div .container{
+  .section4-bg-div .container {
     align-items: center;
     justify-content: start !important;
     text-align: center;
   }
-  .section4-bg-div a{
+
+  .section4-bg-div a {
     background-color: transparent !important;
     color: #1e3791;
     margin-bottom: -15px !important;
   }
-  .fa-circle-play{
-    display: inline-block !important; 
+
+  .fa-circle-play {
+    display: inline-block !important;
   }
-  .section4-bg-div{
+
+  .section4-bg-div {
     background: transparent;
     height: 85vh;
     margin-left: 0px;
     margin-right: 0px;
   }
+
   .section4-bg-div h2,
-  .section4-bg-div h3{
+  .section4-bg-div h3 {
     color: black !important;
   }
-  .section4-bg-div h2{
+
+  .section4-bg-div h2 {
     font-size: 1.75rem !important;
     width: 190px;
     line-height: 1.4 !important;
   }
-  .section4-bg-div2{
+
+  .section4-bg-div2 {
     background: url("https://css-exam-mu.vercel.app/img/applebg12.jpeg")center/cover !important;
     height: 50vh;
     width: 100% !important;
   }
+
   /*Section 5 style changes*/
-  .section5-bg-div{
+  .section5-bg-div {
     height: 596vh;
   }
-  .section5-bg-div .container{
+
+  .section5-bg-div .container {
     width: 85vw;
   }
-  .section5-bg-div .container .phone-card{
+
+  .section5-bg-div .container .phone-card {
     margin: 0 auto;
   }
-  .section5-bg-div h1{
+
+  .section5-bg-div h1 {
     font: bold 2rem "Arial" !important;
   }
-  hr{
+
+  hr {
     left: 10%;
     width: 80%;
   }
-}
+
+  /*Section 6 style changes*/
+  .section6-bg-div .container h2 {
+    font: 500 1.8rem "Arial";
+    width: 100% !important;
+  }
+
+  .section6-bg-div {
+    height: 800vh !important;
+  }
+  .section6-bg-div .cards-div {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: .9rem;
+  }
+
+  .section6-bg-div .card-div {
+    width: 92%;
+    margin: auto;
+  }
+
+  .section6-bg-div .card-div h3 {
+    width: 85%;
+  }
+
+  .section6-bg-div .card-div p {
+    width: 100%;
+  }
+
+  .section6-bg-div .card-div .img-div2 img {
+    width: 40%;
+  }
+
+  .section6-bg-div .card-div .img-div3 img {
+    width: 50%;
+  }
+
+  .section6-bg-div .one-card-div h2 {
+    font: bold 2rem "Arial" !important;
+  }
+
+  .section6-bg-div .one-card-div p {
+    width: 90%;
+  }
+
+  .section6-bg-div .one-card-div {
+    background: white;
+    height: 66vh !important;
+    width: 94%;
+    margin: 1rem auto 0 auto;
+  }
+
+  .section6-bg-div .one-card-responsive {
+    background: url("https://css-exam-mu.vercel.app/img/applebg6.jpeg")left/cover  !important;
+    height: 25vh !important;
+    width: 90%;
+    margin: auto;
+  }
+  .section6-bg-div .vertical-cards-div{
+    padding: 0 !important;
+    gap: 0 !important;
+  }
+  .vertical-cards-div h2{
+    font: bold 2rem "Arial" !important;
+    margin: 20px 0 !important;
+    max-width: 100%;
+  }
+  .section6-bg-div .vertical-card-div {
+    flex-direction: column;
+    width: 94%;
+    margin: 0 auto 20px auto;
+    padding: 10px 0 !important;
+  }
+  .vertical-card-div .content{
+    width: 100%;
+    padding: 0 !important;
+  }
+  .vertical-img-div{
+    width: 69% !important;
+    height: 38vh !important;
+  }
+  .vertical-img-div img{
+    padding: 0 !important;
+  }
+  .vertical-card-div .content h3{
+    font: bold 1.8rem "Arial";
+  }
+  .vertical-cards-div .air .vertical-img-div{
+    order: 1;
+  }
+  .vertical-cards-div .air .vertical-img-div{
+    oheight
+  }
+  
+  }
