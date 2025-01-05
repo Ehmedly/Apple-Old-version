@@ -677,6 +677,188 @@ hr {
 .bottom-info-links-div a {
   margin: 16px auto 15px auto !important;
 }
+/* SECTION 7 STYLES-------------------------------------------------------------------------------------- */
+.section7-bg-div{
+  height: fit-content;
+  background: #f2f2f2;
+  text-align: center;
+  padding: 15vh 0 calc(15vh - 40px) 0;
+}
+.section7-bg-div .container{
+  width: 71vw;
+}
+.section7-cards{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.section7-bigger-card{
+  background:#fff;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+}
+.section7-bigger-card div{
+  background: url("https://css-exam-mu.vercel.app/img/ios17.jpg")center/cover no-repeat;
+  height: 50vh;
+  width: 100%;
+  margin: 10px auto 0 auto;
+  text-align: center;
+}
+.section7-cards h2{
+  font: bold 3rem "Arial";
+  padding: 20px 0;
+  margin: auto;
+}
+.section7-cards h3{
+  font: 500 2.8rem "Arial";
+  padding: 10px 0;
+}
+.section7-cards p{
+  font: 500 1rem "Arial";
+  line-height: 1.4;
+}
+.section7-cards .learn-more{
+  display: inline-block;
+}
+.section7-smaller-card {
+  width: 49.1%;
+  background-color: #fff;
+  padding: 10px;
+  margin: 40px 0;
+  a{
+    margin-bottom:7px;
+  }
+}
+.section7-cards .left h3{
+  line-height: 0.8 !important;
+  padding: 20px 0;
+}
+.section7-cards .right h3{
+  width: 55.9%;
+  line-height: 1.25;
+  text-align: center;
+  margin: auto;
+}
+.section7-cards .left div{
+  background: url("https://css-exam-mu.vercel.app/img/applebg.jpeg")center/cover no-repeat;
+  height: 40vh;
+  margin: 30px 0;
+}
+.section7-cards .right div{
+  background: url("https://css-exam-mu.vercel.app/img/privacy.jpg")center/cover no-repeat;
+  height: 40vh;
+  margin: 30px 0 0 0;
+}
+/* SECTION 8 STYLES------------------------------------------------------------------------------------ */
+.section8-bg-div{
+  height: 300vh;
+  background: #f2f2f2;
+}
+.section8-bg-div .container{
+  width: 71vw;
+}
+.bottom-cards-div h2{
+  font: bold 3rem "Arial";
+  width: fit-content;
+  padding: 20px 0;
+  margin: auto;
+}
+.section8-bg-div .bottom-cards{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.bottom-cards .bottom-card-bigger{
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 42px 10px;
+  background-color: #fff;
+}
+.bottom-cards .bottom-card-bigger .imageDiv{
+  background: url("https://css-exam-mu.vercel.app/img/applebg2.jpeg")center/cover no-repeat;
+  width: 50%;
+  height: 42vh;
+}
+.bottom-cards .bottom-card-bigger .content{
+  width: 50%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  img{
+    width: 29.5%;
+    margin: 0 auto;
+  }
+  p{
+    font: 500 1.4rem "Arial";
+    margin: 20px auto;
+  }
+  a{
+    display: inline-block;
+    margin: 15px 0 35px 0;
+    i{
+      margin-right: 8px;
+    }
+  }
+}
+.bottom-card-smaller{
+  padding:10px;
+  margin-top: 40px;
+  width: 49%;
+  background: #090a0e;
+  text-align: center;
+  i{
+    color: white;
+  }
+  p{
+    color: white;
+    font: 500 1.4rem "Arial";
+  }
+  h3{
+    color: white;
+    font: 500 2.8rem "Arial";
+    padding: 16px 0;
+  }
+  .smaller-links{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    a{
+      display: inline-block;
+      padding: 20px 0 25px 0;
+      i{
+      color: #005ac1;
+      }
+    }
+  }
+  .smaller-bg-tv{
+    height: 40vh;
+    background: url("https://css-exam-mu.vercel.app/img/tv+_bg.png")center/cover no-repeat;
+  }
+  .smaller-bg-music{
+    background: url("https://css-exam-mu.vercel.app/img/music_bg.jpg")center/cover no-repeat;
+    height: 34.5vh;
+    margin-top: 45px;
+    margin-bottom: 10px;
+  }
+}
+.tv{
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  align-items: center;
+  i{
+    font-size: 2.8rem;
+  }
+}
+
+
+
 
 
 
@@ -1004,5 +1186,44 @@ hr {
     margin: 0 auto;
     width: 95%;
   }
-
+  /* section 7 style changes */
+  .section7-bg-div{
+    padding-bottom: 15vh;
+  }
+  .section7-cards h2{
+    font: bold 2rem "Arial";
+  }
+  .section7-cards h3{
+    font: 500 1.8rem "Arial";
+  }
+  .section7-cards .section7-bigger-card div{
+    display: none;
+  }
+  .section7-cards .section7-bigger-card h3{
+    padding-top: 13px;
+    padding-bottom: 12px;
+  }
+  .section7-cards .section7-bigger-card a{
+    margin-bottom: 27px;
+  }
+  .section7-cards .section7-bigger-card,
+  .section7-cards .section7-smaller-card{
+    width: 94%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .section7-cards .section7-smaller-card{
+    margin-bottom: 0;
+    margin-top: 40px;
+  }
+  .section7-cards .left div{
+    margin: 30px 0 10px 0!important;
+  }
+  .section7-cards .right h3{
+    width: 50.5%;
+    line-height: 1.5;
+  }
+  .section7-cards .right div{
+    margin: 30px 0 10px 0;
+  }
 }
