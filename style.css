@@ -155,7 +155,6 @@ header .container a img {
 .learn-more {
   color: rgb(19, 106, 255);
   font: 540 1rem "Arial";
-  text-transform: capitalize;
   margin: 15px 0;
 }
 
@@ -432,7 +431,7 @@ hr {
 
 /* SECTION 6 STYLES------------------------------------------------------------------------------------- */
 .section6-bg-div {
-  height: 500vh;
+  height: 455vh;
   background: #f2f2f2;
   padding: 40px 0;
 }
@@ -537,43 +536,58 @@ hr {
   padding: 40px 0 !important;
   margin-bottom: 10px;
 }
-.vertical-cards-div .air .vertical-img-div{
+
+.vertical-cards-div .air .vertical-img-div {
   order: -1;
 }
-.vertical-cards-div .air .vertical-img-div img{
+
+.vertical-cards-div .air .vertical-img-div img {
   padding: 0 0 0 10px !important;
 }
-.vertical-cards-div .air .content{
+
+.vertical-cards-div .air .content {
   padding-left: 0 !important;
 }
-.vertical-cards-div .air .content p{
+
+.vertical-cards-div .air .content p {
   max-width: 100%;
   line-height: 1.7;
 }
-.vertical-cards-div .air .content div a{
+
+.vertical-cards-div .air .content div a {
   margin: 15px 0 25px 0 !important;
 }
-.vertical-cards-div .air{
+
+.vertical-cards-div .air {
   background-color: #fff;
 }
-.vertical-cards-div .magic .content p{
+
+.vertical-cards-div .magic .content p {
   max-width: 100%;
+  font: 500 1rem "Arial";
+  line-height: 1;
 }
-.vertical-cards-div .magic .content a{
+
+.vertical-cards-div .magic .content a {
   margin: 15px auto !important;
 }
+
 .vertical-cards-div .magic .content {
   padding: 0 !important;
 }
-.vertical-cards-div .magic .vertical-img-div img{
+
+.vertical-cards-div .magic .vertical-img-div img {
   padding: 0 !important;
 }
-.vertical-cards-div .magic .vertical-img-div{
+
+.vertical-cards-div .magic .vertical-img-div {
   flex-direction: column;
   height: 52vh;
   width: 76%;
+  margin: 5px auto;
 }
-.vertical-cards-div .magic{
+
+.vertical-cards-div .magic {
   flex-direction: column;
   background-color: #fff;
   padding: 0 !important;
@@ -630,7 +644,39 @@ hr {
   margin: 28px !important;
 }
 
+.bottom-info-links-div {
+  display: flex;
+  gap: 2.8rem;
+  flex-direction: column;
+  justify-content: center;
+}
 
+.bottom-info-links-div .bottom-infos-div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bottom-infos-div .info-div {
+  text-align: center;
+  width: 32%;
+}
+
+.info-div h4 {
+  text-align: center;
+  font: 600 1.3rem "Arial";
+  padding: 15px 0;
+}
+
+.info-div h5 {
+  margin: auto;
+  text-align: center;
+  font: 500 1rem "Arial";
+  width: 100%;
+}
+
+.bottom-info-links-div a {
+  margin: 16px auto 15px auto !important;
+}
 
 
 
@@ -831,8 +877,9 @@ hr {
   }
 
   .section6-bg-div {
-    height: 800vh !important;
+    height: 620vh !important;
   }
+
   .section6-bg-div .cards-div {
     flex-direction: column;
     justify-content: center;
@@ -877,45 +924,85 @@ hr {
   }
 
   .section6-bg-div .one-card-responsive {
-    background: url("https://css-exam-mu.vercel.app/img/applebg6.jpeg")left/cover  !important;
+    background: url("https://css-exam-mu.vercel.app/img/applebg6.jpeg")left/cover !important;
     height: 25vh !important;
     width: 90%;
     margin: auto;
   }
-  .section6-bg-div .vertical-cards-div{
+
+  .section6-bg-div .vertical-cards-div {
     padding: 0 !important;
     gap: 0 !important;
   }
-  .vertical-cards-div h2{
+
+  .vertical-cards-div h2 {
     font: bold 2rem "Arial" !important;
     margin: 20px 0 !important;
     max-width: 100%;
   }
+
   .section6-bg-div .vertical-card-div {
     flex-direction: column;
     width: 94%;
     margin: 0 auto 20px auto;
     padding: 10px 0 !important;
   }
-  .vertical-card-div .content{
+
+  .vertical-card-div .content {
     width: 100%;
     padding: 0 !important;
   }
-  .vertical-img-div{
+
+  .vertical-img-div {
     width: 69% !important;
     height: 38vh !important;
   }
-  .vertical-img-div img{
+
+  .vertical-img-div img {
     padding: 0 !important;
   }
-  .vertical-card-div .content h3{
+
+  .vertical-card-div .content h3 {
     font: bold 1.8rem "Arial";
   }
-  .vertical-cards-div .air .vertical-img-div{
+
+  .vertical-cards-div .air .vertical-img-div img {
+    display: none;
+  }
+
+  .vertical-cards-div .air .content p {
+    width: 90% !important;
+    margin: 13px auto;
+    line-height: 1;
+  }
+
+  .vertical-cards-div .air .vertical-img-div {
     order: 1;
+    background: url("https://css-exam-mu.vercel.app/img/airtag__b81h4czx41yq_medium.jpg")center/contain no-repeat;
+    height: 30vh !important;
+    margin: 25px auto !important;
   }
-  .vertical-cards-div .air .vertical-img-div{
-    oheight
+
+  .vertical-cards-div .magic p {
+    font: 500 1rem "Arial";
+    width: 92% !important;
   }
-  
+
+  .vertical-cards-div .magic .vertical-img-div {
+    height: 18vh !important;
+    width: 77% !important;
+    margin: 20px auto 10px auto;
   }
+
+  .bottom-info-links-div .bottom-infos-div {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4.5rem;
+  }
+  .bottom-info-links-div .bottom-infos-div .info-div {
+    margin: 0 auto;
+    width: 95%;
+  }
+
+}
