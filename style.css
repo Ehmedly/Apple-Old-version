@@ -1147,7 +1147,7 @@ section p {
 
 
 /*RESPONSIVE DESIGN FOR MAX OF 768 PIXELS ____________________________________________________________________*/
-@media (max-width: 432px) {
+@media (max-width: 768px) {
   .container {
     width: 90% !important;
   }
