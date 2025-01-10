@@ -218,9 +218,6 @@ header .fa-apple{
 }
 
 /*SECTION 3 STYLES*/
-.section3-bg-div {
-  height: 100vh;
-}
 
 .section3-bg-div .container {
   display: flex;
@@ -262,11 +259,11 @@ header .fa-apple{
 /*SECTION 4 STYELS-----------------------------------------------------------------------------------------*/
 .section4-bg-div {
   background: url("https://css-exam-mu.vercel.app/img/applebg12.jpeg")center/cover;
-  height: 100vh;
   margin: 40px 20px;
   border-radius: 30px;
   display: flex;
   align-items: end;
+  height: 100vh;
 }
 
 .section4-bg-div .container {
@@ -312,7 +309,6 @@ header .fa-apple{
   flex-direction: column;
   padding: 40px 0;
   gap: 25px;
-  height: 290vh;
 }
 
 .section5-bg-div .container {
@@ -447,7 +443,6 @@ hr {
 
 /* SECTION 6 STYLES------------------------------------------------------------------------------------- */
 .section6-bg-div {
-  height: 455vh;
   background: #f2f2f2;
   padding: 40px 0;
 }
@@ -1241,7 +1236,6 @@ section p {
 
   /*3rd section style changes------------------------------------------------------------------------------*/
   .section3-bg-div {
-    height: 108vh;
     padding: 1rem 0 !important;
   }
 
@@ -1265,6 +1259,10 @@ section p {
   }
 
   /*4th section style changes-----------------------------------------------------------------------------*/
+  .section4-bg-div {
+    height: 85vh !important;
+  }
+  
   .section4-bg-div .container {
     align-items: center;
     justify-content: start !important;
@@ -1283,7 +1281,6 @@ section p {
 
   .section4-bg-div {
     background: transparent;
-    height: 85vh;
     margin-left: 0px;
     margin-right: 0px;
   }
@@ -1307,7 +1304,6 @@ section p {
 
   /*Section 5 style changes--------------------------------------------------------------------------*/
   .section5-bg-div {
-    height: 596vh;
   }
 
   .section5-bg-div .container {
@@ -1334,7 +1330,6 @@ section p {
   }
 
   .section6-bg-div {
-    height: 620vh !important;
   }
 
   .section6-bg-div .cards-div {
